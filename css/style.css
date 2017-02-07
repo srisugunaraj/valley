@@ -1,0 +1,277 @@
+.main{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #cce7ee;
+	background-image: url(../img/sky.png);
+	background-repeat: no-repeat;
+}
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+.site-header .social li,
+.site-header .menu li{
+	list-style-type: none;
+	display: inline-block;
+}
+.menu{
+	margin:15px;
+	float:left;
+	padding:0;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	padding-right: 5px;
+	background-color: #bd472a;
+	border-radius: 3px;
+	padding:10px 8px;
+}
+.site-header:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.social{
+	float:right;
+	margin:0;
+}
+.social a{
+	color:#000;
+	text-decoration: none;
+	font-size: 11px;
+	border-right: solid 1px black;
+	padding-right: 5px;
+}
+.section .content{
+	text-align: center;
+	background-color: #fff;
+}
+.section .content strong{
+	font-size: 30px;
+	color: #bc3a16
+}
+.content p{
+	font-size: 13px;
+	padding-left: 14px;
+	padding-right: 14px;
+	text-align: left;
+}
+.content a{
+	padding-left: 12px;
+	text-decoration: none;
+}
+.facility h3,
+.active h3{
+	font-size: 18px;
+	color: #a53010;
+
+}
+.facility img{
+	border-radius: 4px;
+}
+.facility,
+.active{
+	margin-left: 8px;
+	display: inline-block;
+}
+.facility:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.grouppy{
+	background-color: #fff;
+	border: solid 1px #bcc8cc;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	float:left;
+	margin-right: 5px;
+}
+.grouppy p{
+	margin-top:9px;
+	margin-bottom:9px;
+}
+.active{
+	float:right;
+	display: inline-block;
+	width:30%;
+}
+.section:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.active p{
+	padding-left: 44px;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+.facility{
+	width: 68%;
+	border-right: solid 1px white;
+}
+.facility a,
+.active a{
+	float: right;
+	text-decoration: none;
+	padding-bottom: 12px;
+}
+.facility a{
+	margin-right: 15px;
+}
+.testimonial{
+	background-color: #fff;
+}
+.test h3,
+.place h3{
+	font-size: 18px;
+	color: #a53010;
+}
+.test p{
+	font-size: 13px;
+}
+.test h6{
+	font-size: 11px;
+	color: #a53010; 
+}
+.para{
+	font-size: 11px;
+}
+.test{
+	border-bottom: solid 1px #cccccc;
+}
+.place:after,
+.tester:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.testimonial{
+	padding-left: 10px;
+}
+.testimonial:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.testimonial a{
+	font-size: 11px;
+	text-decoration: none;
+	float: right;
+	display: block;
+}
+.tester{
+	width:68%;
+	float: left;
+	margin-bottom: 70px;
+	padding-right: 22px;
+}
+.tour{
+	width:32.333%;
+	float: left;
+}
+.tour p{
+	font-size: 13px;
+	padding-right:70px;
+}
+.fb{
+	width:31.2%;
+	float:left ;
+}
+.siter:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+.site{
+	width:25%;
+	float: left;
+	border-right: solid 1px #ccc;
+	color: #fff;
+}
+.site li{
+	list-style-type: none;
+	font-size: 11px;
+}
+.site h3{
+	margin-left: 40px;
+	margin-right: 78px;
+	font-size: 14px;
+	border-bottom: solid 1px #d4a397;
+}
+.add ul,
+.add h3{
+	margin-left: 0;
+	padding-left: 0;
+}
+.add h3{
+	border: none;
+}
+footer{
+	margin-left: auto;
+	margin-right: auto;
+	width:1000px;
+	background-image: url(../img/bg.jpg);
+}
+.fb h4{
+	font-size: 14px;
+	background-color: #fdecc9;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 9px;
+}
+.fb img{
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+}
+.fb{
+	border: solid 1px #afafaf;
+}
+.fill img{
+	padding:0;
+	border: solid 1px black;
+	width:100%;
+}
+.our{
+	background-color: #efefef;
+	border: solid 1px #bcc8cc;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	float:left;
+	margin-right: 5px;
+}
+.our img{
+	width:100%;
+}
+.our p{
+	padding-right: 10px;
+    padding-left: 20px;
+}
+.final{
+	margin-left: auto;
+	margin-right: auto;
+	width:1000px;
+	background-color: #372f38;
+	height: 36px;
+}
+.final p{
+	font-size: 12px;
+	color:#fff;
+	margin:0;
+}
+.final span{
+	padding-left: 580px;
+}
+
